@@ -7,18 +7,83 @@ body{
 
 #team {
     background-color: #27a411;
-    color: white;
-    font-family: Arial, sans-serif;
     font-size: 1.2em;
     border: none;
-    border-radius: 0.5em;
+    border-radius: 5em;
     padding: 0.5em 1em;
     cursor: pointer;
+    position: absolute;
     top: 5%;
     left: 65%;
-    transition: background-color 0.3s ease;
 }
 
-#team:hover {
-    background-color: #1c7e07;
+#team a{
+    color: white;
+    font-family: 'Lalezar', system-ui;
+    text-decoration: none;
+}
+
+#lang {
+    background-color: #27a411;
+    border: none;
+    border-radius: 5em;
+    width: 4em;
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+
+#lang img{
+    width: 3.5em;
+    margin-left: -0.23em;
+}
+
+.logo img{
+    width: 20em;
+    position: absolute;
+    top: 20%;
+    margin-left: 3em;
+}
+
+#vidguide{
+    width: 15em;
+    background-color: #27a411;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 16.5%;
+}
+
+#vidguide a{
+    color: white;
+    font-family: 'Lalezar', system-ui;
+    text-decoration: none;
+}
+
+#continue{
+    width: 15em;
+    background-color: #27a411;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    left: 16.5%;
+}
+
+#continue a{
+    color: white;
+    font-family: 'Lalezar', system-ui;
+    text-decoration: none;
+}
+
+#team:hover, #team:active, #lang:hover, #lang:active, #vidguide:hover, #vidguide:active {
+    background-color: #37123c;
 }
