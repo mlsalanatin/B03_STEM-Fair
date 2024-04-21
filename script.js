@@ -1,23 +1,39 @@
-function toggleTab(){
-    const fullscreenTab = document.querySelector('.tab');
-    fullscreenTab.classList.toggle('show');
+function toggleLanguageTab() {
+    const languageTab = document.querySelector('.langtab');
+    if (languageTab.style.display === 'none' || languageTab.style.display === '') {
+        languageTab.style.display = 'block';
+    } else {
+        languageTab.style.display = 'none';
+    }
 }
 
-document.getElementById('lang').addEventListener('click', function(){
-    toggleTab();
-});
+function closeLanguageTab() {
+    const languageTab = document.querySelector('.langtab');
+    languageTab.style.display = 'none';
+}
 
-document.getElementById('eng').addEventListener('click', function(){
-    console.log('English selected');
-    toggleTab();
-});
+document.addEventListener('DOMContentLoaded', function() {
+    const langButton = document.getElementById('lang');
+    const lang2Button = document.getElementById('lang2');
 
-document.getElementById('bis').addEventListener('click', function(){
-    console.log('Bisaya selected');
-    toggleTab();
-});
+    if (langButton) {
+        langButton.addEventListener('click', function(event) {
+            event.preventDefault();
+            toggleLanguageTab();
+        });
+    }
 
-document.getElementById('tag').addEventListener('click', function(){
-    console.log('Tagalog selected');
-    toggleTab();
+    if (lang2Button) {
+        lang2Button.addEventListener('click', function(event) {
+            event.preventDefault();
+            toggleLanguageTab();
+        });
+    }
+
+    const closeButton = document.getElementById('close');
+    if (closeButton) {
+        closeButton.addEventListener('click', function() {
+            closeLanguageTab();
+        });
+    }
 });
