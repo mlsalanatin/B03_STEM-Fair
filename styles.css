@@ -1,145 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 
-@media only screen and (max-width: 430px) {
-    body{
-        background-color: #f7cdd0;
-        max-width: 432px;
-        margin: 0 auto;
-        max-height: 932px;
-        overflow-y: auto;
-    }
-    
-    #lang img{
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        margin-left: -20px;
-        margin-top: -20px;
-    }
-    
-    #lang{
-        border: none;
-        border-radius: 50px;
-        width: 54px;
-        height: 54px;
-        background-color: #27a411;
-        margin-left: 188px;
-        margin-top: 84px;
-        font-family: "Lalezar", system-ui;
-        font-style: normal;
-    }
-    
-    #lang:hover, #lang:active{
-        background-color: #37123c;
-    }
-    
-    #team{
-        border: none;
-        border-radius: 50px;
-        width: 130px;
-        height: 54px;
-        background-color: #27a411;
-        position: absolute;
-        margin-left: 15px;
-        margin-top: 84px;
-    }
-    
-    #team a{
-        color: white;
-        text-decoration: none;
-        font-family: "Lalezar", system-ui;
-        font-style: normal;
-        font-size: 24px;
-    }
-    
-    #team:hover, #team:active{
-        background-color: #37123c;
-    }
-    
-    .logo img{
-        width: 540px;
-        height: 540px;
-        background-size: contain;
-        margin-left: -55px;
-        
-    }
-    
-    #vidguide{
-        border: none;
-        border-radius: 50px;
-        width: 288px;
-        height: 52px;
-        background-color: #27a411;
-        position: absolute;
-        margin-left: 64px;
-        margin-top: -60px;
-    }
-    
-    #vidguide a{
-        color: white;
-        text-decoration: none;
-        font-family: "Lalezar", system-ui;
-        font-style: normal;
-        font-size: 24px;
-        position: absolute;
-        margin-left: -93px;
-        margin-top: -15px;
-    }
-    
-    #vidguide:hover, #vidguide:active{
-        background-color: #37123c;
-    }
-    
-    #continue{
-        border: none;
-        border-radius: 50px;
-        width: 288px;
-        height: 52px;
-        background-color: #27a411;
-        position: absolute;
-        margin-left: 64px;
-        margin-top: 35px;
-    }
-    
-    #continue a{
-        color: white;
-        text-decoration: none;
-        font-family: "Lalezar", system-ui;
-        font-style: normal;
-        font-size: 24px;
-        position: absolute;
-        margin-left: -100px;
-        margin-top: -15px;
-    }
-    
-    #continue:hover, #continue:active{
-        background-color: #37123c;
-    }
-    
-    .tab{
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-        z-index: 1000;
-    }
-    
-    .tab.show{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .languages{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .languages:hover{
-        background-color: #f0f0f0;
-    }
+body{
+    background-color: #f7cdd0;
+    overflow: hidden;
+}
+
+#team {
+    background-color: #27a411;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 0.5em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    top: 5%;
+    left: 65%;
+    transition: background-color 0.3s ease;
+}
+
+#team:hover {
+    background-color: #1c7e07;
 }
