@@ -255,3 +255,92 @@ body{
 #team:hover, #team:active, #lang:hover, #lang:active, #vidguide:hover, #vidguide:active, #continue:hover, #lang2:hover, #lang2:active, #continue2:hover, #continue2:active, #close:hover, #close:active, #eng:hover, #eng:active, #bis:hover, #bis:active, #tag:hover, #tag:active {
     background-color: #37123c;
 }
+
+#input{
+    background-color: white;
+    width: 100%;
+    height: 11.5em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    box-shadow: 0 0.3em 0.5em #c0c0c4;
+    position: absolute;
+    margin-top: 4.5em;
+    left: 0;
+    z-index: 1000;
+}
+
+.circle1{
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 5em;
+    background-color: #37123c;
+    position: absolute;
+    top: 2em;
+    left: 2em;
+}
+
+.vl{
+    position: absolute;
+    top: 3em;
+    left: 2.6em;
+    height: 3em;
+    border-left: 3px solid #37123c;
+}
+
+.circle2{
+    width: 1.2em;
+    height: 1.2em;
+    border: 3px solid #37123c;
+    border-radius: 5em;
+    background-color: white;
+    position: absolute;
+    top: 6em;
+    left: 1.9em;
+}
+
+#locationInput1{
+    position: absolute;
+    top: 2em;
+    left: 5em;
+    width: 20em;
+    height: 2em;
+    border: 1px solid #79798f;
+    border-radius: 0.5em;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#locationInput2{
+    position: absolute;
+    top: 6.5em;
+    left: 5em;
+    width: 20em;
+    height: 2em;
+    border: 1px solid #79798f;
+    border-radius: 0.5em;
+    font-family: Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#locate{
+    position: absolute;
+    top: 10em;
+    left: 13em;
+    width: 5em;
+    height: 3em;
+    background-color: #c48d8d;
+    border: none;
+    border-radius: 3em;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+#map {
+    position: absolute;
+    top: 22em;
+    left: 0;
+    height: 50em;
+    width: 100%;
+}
