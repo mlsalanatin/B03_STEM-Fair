@@ -344,3 +344,269 @@ body{
     height: 50em;
     width: 100%;
 }
+
+@media screen and (min-width: 1366px){
+    #team {
+        background-color: #27a411;
+        font-size: 1.2em;
+        border: none;
+        border-radius: 5em;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        position: absolute;
+        top: 5%;
+        left: 85%;
+    }
+    
+    #team a{
+        color: white;
+        font-family: 'Lalezar', system-ui;
+        text-decoration: none;
+    }   
+
+    #lang {
+        background-color: #27a411;
+        border: none;
+        border-radius: 5em;
+        width: 4em;
+        cursor: pointer;
+        position: absolute;
+        top: 5%;
+        left: 80%;
+    }
+    
+    #lang img{
+        width: 3.5em;
+        margin-left: -0.23em;
+    }
+    
+    .logo img{
+        width: 20em;
+        position: absolute;
+        top: 15%;
+        left: 35%;
+    }
+
+    #vidguide{
+        width: 15em;
+        background-color: #27a411;
+        font-size: 1.2em;
+        border: none;
+        border-radius: 5em;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        position: absolute;
+        top: 65%;
+        left: 37.5%;
+    }
+    
+    #vidguide a{
+        color: white;
+        font-family: 'Lalezar', system-ui;
+        text-decoration: none;
+    }
+    
+    #continue{
+        width: 15em;
+        background-color: #27a411;
+        font-size: 1.2em;
+        border: none;
+        border-radius: 5em;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        position: absolute;
+        top: 75%;
+        left: 37.5%;
+    }
+    
+    #continue a{
+        color: white;
+        font-family: 'Lalezar', system-ui;
+        text-decoration: none;
+    }
+
+    #guide{
+        width: 100vw;
+        height: 75vh;
+        position: absolute;
+        top: 5.8em;
+        left: 0;
+        object-fit: contain;
+    }
+
+    #continue2{
+        width: 15em;
+        background-color: #27a411;
+        font-size: 1.2em;
+        border: none;
+        border-radius: 5em;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        position: absolute;
+        top: 20%;
+        left: 37.5%;
+        text-decoration: none;
+    }
+
+    .langtab h1{
+        position: absolute;
+        top: 2em;
+        font-family: 'Lalezar', system-ui;
+        font-size: 2.5em;
+        color: #000022;
+    }
+    
+    .languages{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .languages button{
+        margin-right: 15em;
+        margin-top: 1em;
+        width: 2em;
+        height: 2em;
+        font-family: 'Lalezar', system-ui;
+        font-size: 2em;
+        color: white;
+        background-color: #27a411;
+        border: none;
+        border-radius: 5em;
+    }
+    
+    #langEng{
+        position: absolute;
+        top: 8.5em;
+        left: 24em;
+        font-family: 'Lalezar', system-ui;
+        font-size: 1.5em;
+        color: #000022;
+    }
+    
+    #langBis{
+        position: absolute;
+        top: 12.5em;
+        left: 24em;
+        font-family: 'Lalezar', system-ui;
+        font-size: 1.5em;
+        color: #000022;
+    }
+    
+    #langTag{
+        position: absolute;
+        top: 16.5em;
+        left: 24em;
+        font-family: 'Lalezar', system-ui;
+        font-size: 1.5em;
+        color: #000022;
+    }
+    
+    #close{
+        width: 1.5em;
+        height: 1.5em;
+        padding-left: 0.48em;
+        padding-right: 0.5em;
+        padding-bottom: 0.5em;
+        position: absolute;
+        top: 1em;
+        left: 3em;
+        background-color: #c48d8d;
+        border: none;
+        font-family: 'Kodchasan', sans-serif;
+        font-size: 2.5em;
+        color: white;
+        z-index: 1000;
+    }
+
+    #input{
+        background-color: white;
+        width: 100%;
+        height: 8em;
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
+        box-shadow: 0 0.3em 0.5em #c0c0c4;
+        position: absolute;
+        margin-top: 4.5em;
+        left: 0;
+        z-index: 1000;
+    }
+    
+    .circle1{
+        width: 1.5em;
+        height: 1.5em;
+        border-radius: 5em;
+        background-color: #37123c;
+        position: absolute;
+        top: 1em;
+        left: 2em;
+    }
+    
+    .vl{
+        position: absolute;
+        top: 2em;
+        left: 2.6em;
+        height: 3em;
+        border-left: 3px solid #37123c;
+    }
+    
+    .circle2{
+        width: 1.2em;
+        height: 1.2em;
+        border: 3px solid #37123c;
+        border-radius: 5em;
+        background-color: white;
+        position: absolute;
+        top: 5em;
+        left: 1.9em;
+    }
+    
+    #locationInput1{
+        position: absolute;
+        top: 1em;
+        left: 5em;
+        width: 20em;
+        height: 2em;
+        border: 1px solid #79798f;
+        border-radius: 0.5em;
+        font-family: Helvetica, sans-serif;
+        font-size: 0.9em;
+        text-align: center;
+    }
+    
+    #locationInput2{
+        position: absolute;
+        top: 5.5em;
+        left: 5em;
+        width: 20em;
+        height: 2em;
+        border: 1px solid #79798f;
+        border-radius: 0.5em;
+        font-family: Helvetica, sans-serif;
+        font-size: 0.9em;
+        text-align: center;
+    }
+    
+    #locate{
+        position: absolute;
+        top: 3em;
+        left: 30em;
+        width: 5em;
+        height: 3em;
+        background-color: #c48d8d;
+        border: none;
+        border-radius: 3em;
+        font-family: Helvetica, sans-serif;
+        color: white;
+    }
+    
+    #map {
+        position: absolute;
+        top: 22em;
+        left: 0;
+        height: 50em;
+        width: 100%;
+    }
+}
